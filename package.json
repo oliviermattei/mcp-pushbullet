@@ -1,0 +1,41 @@
+{
+  "name": "@oliviermattei/mcp-pushbullet",
+  "version": "1.0.0",
+  "description": "An MCP service that allows sending notifications via Pushbullet",
+  "main": "index.js",
+  "bin": {
+    "mcp-pushbullet": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "pushbullet",
+    "notifications",
+    "mcp",
+    "api",
+    "cursor"
+  ],
+  "author": "Olivier Mattei",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviermattei/mcp-pushbullet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oliviermattei/mcp-pushbullet/issues"
+  },
+  "homepage": "https://github.com/oliviermattei/mcp-pushbullet#readme"
+}
